@@ -171,3 +171,7 @@ __vsc_prompt_cmd_original
 psql --username=freecodecamp --dbname=students
 ./student_info.sh
 psql --username=freecodecamp --dbname=students
+__vsc_prompt_cmd_original
+psql --username=freecodecamp --dbname=students
+SELECT major FROM students RIGHT JOIN majors ON students.major_id = majors.major_id WHERE student_id IS NULL
+psql --username=freecodecamp --dbname=students
