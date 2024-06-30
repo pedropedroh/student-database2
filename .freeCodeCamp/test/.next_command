@@ -170,3 +170,4 @@ __vsc_prompt_cmd_original
 __vsc_prompt_cmd_original
 psql --username=freecodecamp --dbname=students
 ./student_info.sh
+psql --username=freecodecamp --dbname=students
